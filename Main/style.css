@@ -25,3 +25,8 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+.movies {
+    overflow-x:scroll;
+    width: 250px;
+}
