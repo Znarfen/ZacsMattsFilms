@@ -27,6 +27,6 @@ footer {
 }
 
 .movies {
-    overflow-x:scroll;
-    width: 250px;
+    overflow-x: auto;
+    width: 5%;
 }
