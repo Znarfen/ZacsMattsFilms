@@ -22,11 +22,22 @@ footer {
     background-color: rgb(96, 55, 0);
     width: 100%;
     height: 200px;
-    position: fixed;
-    bottom: 0;
 }
 
 .movies {
     overflow-x: auto;
     width: 5%;
+}
+
+.thumnail {
+    display: inline-block;
+    aspect-ratio: 2 / 3;
+    width: 20%;
+}
+
+.thumnail img {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 80%;
 }
