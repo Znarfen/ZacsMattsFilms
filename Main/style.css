@@ -10,6 +10,8 @@ p {
 
 h1 {
     color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 header {
@@ -29,7 +31,7 @@ footer {
     width: 100%;
 }
 
-#movies {
+.genre {
     display: flex;
     width: fit-content;
 }
@@ -38,6 +40,7 @@ footer {
     aspect-ratio: 2 / 3;
     width: 300px;
     float: left;
+    background-color: rgb(74, 42, 0);
 }
 
 .thumnail:hover {

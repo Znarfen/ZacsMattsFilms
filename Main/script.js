@@ -1,13 +1,32 @@
 
-loadThumbnails("dummy1")
-loadThumbnails("dummy2")
-loadThumbnails("dummy3")
-loadThumbnails("dummy1")
-loadThumbnails("dummy2")
-loadThumbnails("dummy3")
+loadThumbnails("dummy1", "action")
+loadThumbnails("dummy1", "action")
+loadThumbnails("dummy1", "action")
+loadThumbnails("dummy1", "action")
+loadThumbnails("dummy1", "action")
+loadThumbnails("dummy1", "action")
+
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+loadThumbnails("dummy2", "comedy")
+
+loadThumbnails("dummy3", "fantasy")
+loadThumbnails("dummy3", "fantasy")
+loadThumbnails("dummy3", "fantasy")
+loadThumbnails("dummy3", "fantasy")
+loadThumbnails("dummy3", "fantasy")
+
+
+
 
 // Load movies
-function loadThumbnails(film) {
+function loadThumbnails(film, genre) {
     console.log("films: " + film);
 
     // Create actual image for thumbnail
@@ -22,7 +41,7 @@ function loadThumbnails(film) {
 
     // Add elements to div and div to p and p to body
     thumbnail.appendChild(pick);
-    document.getElementById("movies").appendChild(thumbnail);
+    document.getElementById(genre).appendChild(thumbnail);
 
     thumbnail.onclick = function() {startFilm(film)};
 }
