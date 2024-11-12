@@ -2,6 +2,9 @@
 loadThumbnails("dummy1")
 loadThumbnails("dummy2")
 loadThumbnails("dummy3")
+loadThumbnails("dummy1")
+loadThumbnails("dummy2")
+loadThumbnails("dummy3")
 
 // Load movies
 function loadThumbnails(film) {
